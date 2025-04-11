@@ -37,23 +37,19 @@ Follow the steps below to integrate your MCP server with Claude Desktop:
 [Download](https://claude.ai/download) Clude AI Desktop app 
 
 ### Start Claude Desktop after installation:
-⚙️ Step 2: Configure MCP Server in Claude
-
-Open Claude Desktop Settings.
-
-Navigate to the Developer section.
-
-Click on Edit Config.
-
-Locate and edit the claude_desktop_config.json file.
-
-
 ![Claude APP](Claude/1Claude.png)
+
+## ⚙️ Step 2: Configure MCP Server in Claude
+
+Open the Claude Desktop settings 
 ![Go To Setting](Claude/2setting.png)
+
+### Then navigate to the Developer section, then click on Edit Config and Locate and edit the claude_desktop_config.json file and add the MCP Server configuration:
+
 ![Select Developer](Claude/3developer.png)
 
 
-Add the MCP Server configuration:
+
 
 ### 🛠 Claude Desktop MCP Configuration
 
@@ -76,8 +72,13 @@ To connect Claude Desktop to your local Spring MCP Server, update your `claude_d
 ### Restart Claude Desktop.
 
 If everything is configured correctly, you should see the hammer 🛠️ and plugin 🔌 icons in the sidebar.
-![Claude APP](Claude/4Tool.png)
 ![Claude APP](Claude/5hammer.png)
-![Claude APP](Claude/6allow.png)
-![Claude APP](Claude/7result.png)
+
+### Check the icon, and it will list all the function/tool registers from the  server 
+
+![Claude APP](Claude/4Tool.png)
+
+### Ask any system-related question like " Hi get my system details with which java version installed "
+
+![Claude APP](Claude/6allow.png) ![Claude APP](Claude/7result.png)
 
