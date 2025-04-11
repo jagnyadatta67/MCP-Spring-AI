@@ -47,6 +47,12 @@ Click on Edit Config.
 
 Locate and edit the claude_desktop_config.json file.
 
+
+![Claude APP](Claude/1Claude.png)
+![Go To Setting](Claude/2setting.png)
+![Select Developer](Claude/3developer.png)
+
+
 Add the MCP Server configuration:
 
 ### 🛠 Claude Desktop MCP Configuration
@@ -65,5 +71,13 @@ To connect Claude Desktop to your local Spring MCP Server, update your `claude_d
     }
   }
 }
+```
 
+### Restart Claude Desktop.
+
+If everything is configured correctly, you should see the hammer 🛠️ and plugin 🔌 icons in the sidebar.
+![Claude APP](Claude/4Tool.png)
+![Claude APP](Claude/5hammer.png)
+![Claude APP](Claude/6allow.png)
+![Claude APP](Claude/7result.png)
 
