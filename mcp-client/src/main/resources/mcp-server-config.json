@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "jagnya-selflearn-mcp-client": {
+      "command": "/Users/jagnyapanigrahi/Library/Java/JavaVirtualMachines/sapmachine-21.0.6/Contents/Home/bin/java",
+      "args": [
+        "-jar",
+        "/Users/jagnyapanigrahi/Documents/SpringBoot/MCP/spring-mcp/target/spring-mcp-0.0.1-SNAPSHOT.jar"
+      ]
+    }
+  }
+}
